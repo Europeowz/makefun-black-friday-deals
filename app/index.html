@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midnight Sale — Black Friday deal finder 2026</title>
+<meta name="description" content="25 real Black Friday deals, checked today at Amazon, Best Buy and Walmart, with an honest signal on each one.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">Black Friday · November 27, 2026</p>
+    <h1>Midnight Sale</h1>
+    <p class="lede">Twenty-five real Black Friday deals, each checked today at its
+    store. Every card shows the sale price, the usual price, the discount,
+    when the price was checked and where it was read — plus an honest
+    signal: a <strong>new low</strong>, a <strong>strong price</strong>, or a
+    <strong>solid deal</strong>, with the evidence for it.</p>
+    <p class="updated">Prices checked November 27, 2026 (UTC). Prices move during
+    Black Friday week — the store link opens the store&rsquo;s search for the
+    exact product, so confirm the price there before you buy.</p>
+  </div>
+</header>
+<main class="wrap">
+  <div class="filters" id="filters">
+    <label>Search
+      <input type="search" id="search" placeholder="Try &ldquo;TV&rdquo;, &ldquo;AirPods&rdquo;, &ldquo;Dyson&rdquo;&hellip;" autocomplete="off">
+    </label>
+    <label>Category
+      <select id="category"><option value="">All categories</option></select>
+    </label>
+    <label>Store
+      <select id="store"><option value="">All stores</option></select>
+    </label>
+    <label>At least
+      <select id="discount">
+        <option value="0">Any discount</option>
+        <option value="20">20% off</option>
+        <option value="30">30% off</option>
+        <option value="40">40% off</option>
+        <option value="50">50% off</option>
+      </select>
+    </label>
+    <label>Sort by
+      <select id="sort">
+        <option value="discount">Biggest discount</option>
+        <option value="new-low">Best signal first</option>
+        <option value="price-asc">Price: low to high</option>
+        <option value="price-desc">Price: high to low</option>
+      </select>
+    </label>
+  </div>
+  <p class="count" id="count"></p>
+  <section class="board" id="board" aria-live="polite"></section>
+  <section id="detail" hidden></section>
+</main>
+<footer>
+  <div class="wrap">
+    <p>How the signals work: <strong>New low</strong> means the lowest price
+    the product has ever been offered for, as reported by the source named on
+    the deal. <strong>Strong price</strong> means a cut of about 30% or more,
+    or a large dollar saving on a current model. <strong>Solid deal</strong>
+    means a real cut worth taking, but a modest one — often the first cut on
+    a brand-new product. A percentage alone never decides it: the evidence on
+    each deal says why.</p>
+    <p>Midnight Sale is an independent deal finder. Prices were read at the
+    stores and deals sources named on each deal on November 27, 2026. Store
+    links go to the store&rsquo;s own search for the product named.</p>
+  </div>
+</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
